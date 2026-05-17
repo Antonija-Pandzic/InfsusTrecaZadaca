@@ -23,8 +23,7 @@ Skripta kreira:
 
 Potrebno je napraviti `.env` datoteku unutar backend direktorija.
 
-Primjer:
-
+```env
 DB_USER=postgres
 DB_HOST=localhost
 DB_NAME=InfsusTrecaDz
