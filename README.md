@@ -21,7 +21,8 @@ Skripta kreira:
 
 # Konfiguracija baze
 
-Potrebno je napraviti `.env` datoteku unutar backend direktorija. Primjerice: 
+Potrebno je napraviti `.env` datoteku unutar backend direktorija.
+Primjerice: 
 
 ```env
 DB_USER=postgres
@@ -31,6 +32,7 @@ DB_PASSWORD=lozinka
 DB_PORT=5432
 ```
 NAPOMENA: Projekt koristi dotenv konfiguraciju za povezivanje s PostgreSQL bazom podataka.
+          Datoteka za bazu nalazi se u: backend\src\database\db.ts.
 # Pokretanje backend dijela
 
 Otvoriti terminal:
