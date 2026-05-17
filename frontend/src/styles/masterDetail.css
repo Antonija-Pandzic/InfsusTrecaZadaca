@@ -1,0 +1,171 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  background-color: #eef5ff;
+  color: #1f2937;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #1d4ed8;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.panel {
+  background-color: white;
+  padding: 22px;
+  border-radius: 12px;
+  width: 50%;
+  box-shadow: 0 4px 14px rgba(37, 99, 235, 0.15);
+  border: 1px solid #dbeafe;
+}
+
+h2 {
+  color: #1e40af;
+  margin-top: 0;
+}
+
+h3 {
+  color: #1e3a8a;
+  margin-top: 10px;
+}
+
+.odjel {
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #bfdbfe;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #f8fbff;
+  transition: 0.2s;
+}
+
+.odjel:hover {
+  background-color: #dbeafe;
+  border-color: #60a5fa;
+}
+
+.odjel-aktivan {
+  background-color: #bfdbfe;
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+}
+
+.master-box {
+  margin-top: 22px;
+  padding-top: 18px;
+  border-top: 3px solid #2563eb;
+}
+
+.detail-form {
+  margin-top: 22px;
+  padding-top: 15px;
+  border-top: 3px solid #2563eb;
+}
+
+input,
+select {
+  margin: 6px 0;
+  padding: 8px;
+  border: 1px solid #93c5fd;
+  border-radius: 6px;
+  outline: none;
+}
+
+input:focus,
+select:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2);
+}
+
+button {
+  margin: 6px 4px 6px 0;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #2563eb;
+  color: white;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+button[type="button"] {
+  background-color: #64748b;
+}
+
+button[type="button"]:hover {
+  background-color: #475569;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+label {
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #374151;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  background-color: white;
+}
+
+th,
+td {
+  border: 1px solid #bfdbfe;
+  padding: 9px;
+  text-align: left;
+}
+
+th {
+  background-color: #dbeafe;
+  color: #1e3a8a;
+}
+
+tr:nth-child(even) {
+  background-color: #f8fbff;
+}
+
+#poruka {
+  font-weight: bold;
+  margin-top: 10px;
+  color: #1d4ed8;
+}
+
+#odabraniOdjelTekst {
+  color: #334155;
+  font-weight: bold;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .panel {
+    width: 100%;
+  }
+}
