@@ -8,7 +8,7 @@ Potrebno je:
 
 1. Kreirati PostgreSQL bazu podataka
 2. Pokrenuti SQL skriptu:
-   - database.sql
+   - BazaZaTrecuDz.sql
 
 Skripta kreira:
 
