@@ -6,7 +6,7 @@ Web aplikacija za upravljanje bolničkim odjelima, sobama i šifrarnicima izrađ
 
 Potrebno je:
 
-1. Kreirati PostgreSQL bazu podataka
+1. Kreirati PostgreSQL bazu podataka.
 2. Pokrenuti SQL skriptu:
    - BazaZaTrecuDz.sql
 
@@ -21,7 +21,7 @@ Skripta kreira:
 
 # Konfiguracija baze
 
-Potrebno je napraviti `.env` datoteku unutar backend direktorija.
+Potrebno je napraviti `.env` datoteku unutar backend direktorija. Primjerice: 
 
 ```env
 DB_USER=postgres
