@@ -21,7 +21,7 @@ Skripta kreira:
 
 # Konfiguracija baze
 
-Potrebno je napraviti `.env` datoteku unutar backend direktorija.
+Potrebno je napraviti `.env` datoteku unutar backend direktorija. Ne unutar \src direktorija, nego samo unutar \backend.
 Primjerice: 
 
 ```env
