@@ -22,7 +22,7 @@ Skripta kreira:
 # Konfiguracija baze
 
 Potrebno je napraviti `.env` datoteku unutar backend direktorija. BITNO: Ne unutar \backend\src direktorija, nego samo unutar \backend.
-Primjerice: 
+Primjer: 
 
 ```env
 DB_USER=postgres
