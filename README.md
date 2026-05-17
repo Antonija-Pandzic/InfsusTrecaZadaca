@@ -29,11 +29,9 @@ DB_HOST=localhost
 DB_NAME=InfsusTrecaDz
 DB_PASSWORD=lozinka
 DB_PORT=5432
-
-NAPOMENA: Projekt koristi dotenv konfiguraciju za povezivanje s PostgreSQL bazom podataka.
-
 ---
 ```
+NAPOMENA: Projekt koristi dotenv konfiguraciju za povezivanje s PostgreSQL bazom podataka.
 # Pokretanje backend dijela
 
 Otvoriti terminal:
